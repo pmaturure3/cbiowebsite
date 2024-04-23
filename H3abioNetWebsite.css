@@ -1,0 +1,54 @@
+/*********************************************************************************************************/
+/* Date: April/May 2024 */
+/* Contributor: mtrper001@myuct.ac.za */
+/* Objective: Improve overall responsiveness of div sections, images and text with h3abionet.org */
+/*********************************************************************************************************/
+
+
+/* Styles for mobile devices */
+@media  (max-width: 480px) {
+    #sp-logo {
+        background-color: pink;
+        
+    }
+
+    .h3a-slogan{
+      
+        width:50%;
+    }
+    .div2 {
+        background-color: lightgreen;
+       
+    }
+}
+
+/* Styles for laptop devices */
+@media (min-width: 481px) and (max-width: 1024px) {
+    #sp-logo {
+        background-color: purple;
+        width:60%;
+    }
+    .div2 {
+        background-color: green;
+      
+    }
+}
+
+/* Styles for wide screen devices */
+@media (min-width: 1025px) {
+    #sp-logo {
+        background-color: red;
+        width:90%;
+     
+    }
+    .div2 {
+        background-color: darkgreen;
+        
+    }
+}
+
+/*********************************************************************************************************/
+/* Date: April/May 2024 */
+/* Contributor: mtrper001@myuct.ac.za */
+/* Objective: Improve overall responsiveness of div sections, images and text with h3abionet.org */
+/*********************************************************************************************************/
