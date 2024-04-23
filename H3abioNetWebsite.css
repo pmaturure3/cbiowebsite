@@ -5,46 +5,37 @@
 /*********************************************************************************************************/
 
 
-/* Styles for mobile devices */
+/* *********************************************Styles for mobile devices**********************************************/
 @media  (max-width: 480px) {
     #sp-logo {
         background-color: pink;
         
     }
-
+    /* resize slogan to fit mobile view */
     .h3a-slogan{
       
         width:50%;
     }
-    .div2 {
-        background-color: lightgreen;
-       
-    }
 }
 
-/* Styles for laptop devices */
+/* *********************************************Styles for laptop devices **********************************************/
 @media (min-width: 481px) and (max-width: 1024px) {
     #sp-logo {
         background-color: purple;
         width:60%;
     }
-    .div2 {
-        background-color: green;
-      
-    }
+
 }
 
-/* Styles for wide screen devices */
+/********************************************** Styles for wide screen devices **********************************************/
+
 @media (min-width: 1025px) {
     #sp-logo {
         background-color: red;
         width:90%;
      
     }
-    .div2 {
-        background-color: darkgreen;
-        
-    }
+
 }
 
 /*********************************************************************************************************/
