@@ -1,14 +1,14 @@
-/*********************************************************************************************************/
+/*****************************************************************************************************************************/
 /* Date: April/May 2024 */
 /* Contributor: mtrper001@myuct.ac.za */
 /* Objective: Improve overal responsiveness of the h3abionet.org website mobile, laptop, ipad, and large screen look and feel */
-/*********************************************************************************************************/
+/******************************************************************************************************************************/
 
 
-/* *********************************************Styles for mobile devices**********************************************/
+/* ********************************************* Styles for mobile devices *****************************************************/
 @media  (max-width: 480px) {
     #sp-logo {
-        background-color: pink;
+        /* background-color: pink; */
         
     }
     /* resize slogan to fit mobile view */
@@ -17,37 +17,37 @@
         width:50%;
     }
 
-    /* reduce space above text in mobile view*/
+    /* reduce space above text in mobile view although the code will hide the sp-menu */
     #sp-header #sp-menu {
         /* padding-left: 5px;
         padding-right: 5px;
         width: 75%; */
-        margin-top: 12px;
+        margin-top: 5px;
       }
 }
 
-/* *********************************************Styles for laptop devices **********************************************/
+/* ********************************************* Styles for laptop devices **********************************************************/
 @media (min-width: 481px) and (max-width: 1024px) {
     #sp-logo {
-        background-color: purple;
+        /* background-color: purple; */
         width:60%;
     }
 
 }
 
-/********************************************** Styles for wide screen devices **********************************************/
+/********************************************** Styles for wide screen devices ****************************************************/
 
 @media (min-width: 1025px) {
     #sp-logo {
-        background-color: red;
-        width:90%;
+        /* background-color: red; */
+        width: 100%;
      
     }
 
 }
 
-/*********************************************************************************************************/
+/*********************************************************************************************************************************/
 /* Date: April/May 2024 */
 /* Contributor: mtrper001@myuct.ac.za */
 /* Objective: Improve overal responsiveness of the h3abionet.org website mobile, laptop, ipad, and large screen look and feel */
-/*********************************************************************************************************/
+/*********************************************************************************************************************************/
